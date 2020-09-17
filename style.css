@@ -1,0 +1,117 @@
+p, ul, h1, h2, h3, blockquote
+{
+    color: #454545;
+
+}
+
+p, ul
+{
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.font-monospace
+{
+    font-family: monospace;
+}
+
+body
+{
+   max-width: 800px;
+   margin: 2em auto;
+   font-family: Open Sans,Arial;
+
+   }
+
+.mfw
+{
+    color: #730000
+}
+
+.wrong
+{
+    color: #c0392b;
+    text-decoration: underline
+}
+
+.mfws
+{
+    color: #730000
+}
+
+.smallfont
+{
+    font-size: xx-small;
+}
+
+.multicolore
+{
+    color:blue;
+    color:red;
+    color: yellowgreen;
+    color: yellow
+}
+
+.mfwunderline
+{
+    color: #730000;
+    text-decoration: underline
+}
+
+.imageflottante
+{
+    float: left;
+}
+
+.legende
+{
+    font-size: x-small
+}
+
+.apreschat
+{
+    clear: both
+}
+
+
+.author
+{
+    font-size: x-small;
+    font-style: italic;
+}
+
+blockquote:before
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: #454545;
+    content: open-quote;
+    font-size: 5rem;
+    margin-top: 0;
+    float: left;
+    margin-right: 2rem;
+    width: 1.2rem
+}
+
+blockquote ::after
+{
+   content: "";
+   display: block;
+   clear: both; 
+}
+
+.haut
+{
+    vertical-align: super;
+    font-size: x-small;
+}
+
+.carregris
+{
+    content:"";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-left: .2em;
+    margin-right: .2em;
+    background-color: #454545;
+}
